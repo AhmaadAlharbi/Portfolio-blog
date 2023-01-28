@@ -1,6 +1,6 @@
 <header class="lg:w-[560px] h-[144px] hidden lg:block p-[30px] ml-auto mb-10 rounded-[16px] bg-white dark:bg-[#111111]">
     <nav class="hidden lg:block">
-        <ul class="flex">
+        <ul class="flex space-x-6">
             <li>
                 <a class="{{ Request::is('/') ? 'menu-active' : 'menu-item' }}" href="/">
                     <span class="text-xl mb-1">

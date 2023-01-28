@@ -19,6 +19,7 @@
                 <div class="lg:rounded-2xl bg-white dark:bg-[#111111]">
                     <div class="pt-12 md:py-12 px-2 sm:px-5 md:px-10 lg:px-14">
                         <!-- about page title -->
+                        <h2 class="after-effect after:left-52">About Me</h2>
                         <!-- personal info for mobile devices start -->
                         <div class="lg:hidden">
                             <div class="w-full mb-6 lg:mb-0 mx-auto relative bg-white text-center dark:bg-[#111111] px-6 rounded-[20px] mt-[180px] md:mt-[220px] lg:mt-0">
@@ -100,6 +101,7 @@
                         <div class="lg:grid grid-cols-12 md:gap-10 pt-4 md:pt-[30px] items-center hidden">
                             <div class="col-span-12 space-y-2.5">
                                 <div class="lg:mr-16">
+
                                     <p class="text-[#44566c] dark:text-color-910 leading-7">
                                         I am an experienced web developer with a background in computer engineering. Skilled in various technologies such as HTML, CSS, JavaScript, Vue.js, PHP and Laravel. Passionate about providing high-quality solutions and continuously learning in the field.
                                     <p class="text-[#44566c] leading-7 mt-2.5 dark:text-color-910"> If you're interested in working with me, please take a look at my resume and portfolio, and don't hesitate to contact me. </p>
