@@ -26,7 +26,7 @@
                         <span class="font-semibold dark:text-white">design work or partnerships.</span>
                     </h3>
 
-                    <form action="https://formspree.io/f/xoqrgaab" method="POST">
+                    <form action="https://formsubmit.co/ahmaadzaid7@gmail.com" method="POST">
                         <div class="returnmessage" data-success="Your message has been received, We will contact you soon."></div>
                         <div class="empty_notice">
                             <span>Please Fill Required Fields</span>
@@ -59,9 +59,8 @@
                 </div>
 
                 <!-- footer start -->
-                <footer class="overflow-hidden bg-[#f8fbfb] dark:bg-[#212425] rounded-b-2xl">
-                    <p class="text-center py-6 text-gray-lite dark:text-color-910"> © 2022 All Rights Reserved by <a class="hover:text-[#FA5252] duration-300 transition" href="https://themeforest.net/user/ib-themes" target="_blank" rel="noopener noreferrer">ib-themes</a>. </p>
-                </footer>
+                @include('layouts.footer')
+
                 <!-- footer end -->
             </div>
             <!-- contact section start -->

@@ -24,13 +24,13 @@
                     </span> Works
                 </a>
             </li>
-            <li>
+            <!-- <li>
                 <a class="{{ Request::is('blogs') ? 'menu-active' : 'menu-item' }}" href="/blogs">
                     <span class="text-xl mb-1">
                         <i class="fa-brands fa-blogger"></i>
                     </span> Blogs
                 </a>
-            </li>
+            </li> -->
             <li>
                 <a class="{{ Request::is('contact') ? 'menu-active' : 'menu-item' }}" href="/contact">
                     <span class="text-xl mb-1">

@@ -30,6 +30,10 @@ Route::get('/contact', function () {
     return view('contact');
 });
 
+Route::get('/download-pdf', function () {
+    $path = storage_path('ahmadCv-23.pdf');
+    return response()->download($path);
+});
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');

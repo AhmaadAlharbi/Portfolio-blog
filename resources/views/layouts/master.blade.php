@@ -14,11 +14,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Roboto+Slab:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
     <!-- slick -->
+    <!--=== jquary modal css ===-->
+    <link rel="stylesheet" href="./css/vendor/jquery.modal.min.css" />
     <link rel="stylesheet" type="text/css" href="./css/vendor/slick.css" />
     <!--=== main css ===-->
     <link rel="stylesheet" href="./css/tailwind.css" />
     <link rel="stylesheet" href="./css/custom.css" />
-    <title>Ahmad Zaid | Portfolio </title>
+    <title>Ahmad Zaid | Web Developer </title>
 
     <script>
         // On page load or when changing themes, best to add inline in `head` to avoid FOUC
@@ -37,6 +39,7 @@
             @yield('page-header')
             @yield('content')
             @include('layouts.mobile-navbar')
+
         </div>
     </div>
 

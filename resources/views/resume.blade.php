@@ -113,7 +113,6 @@
                             <div class="flex gap-y-5 gap-x-2.5 flex-wrap">
                                 <button class="resume-btn">Coding</button>
                                 <button class="resume-btn">Designing</button>
-                                <button class="resume-btn">Print</button>
                                 <button class="resume-btn">Time Management</button>
                                 <button class="resume-btn">Flexibility</button>
                             </div>
@@ -123,10 +122,8 @@
                 <!-- working section end -->
 
                 <!-- footer start -->
-                <footer class="overflow-hidden rounded-b-2xl" style="background: transparent;">
-                    <p class="text-center py-6 text-gray-lite dark:text-color-910"> © 2022 All Rights Reserved
-                        by <a class="hover:text-[#FA5252] duration-300 transition" href="https://themeforest.net/user/ib-themes" target="_blank" rel="noopener noreferrer">ib-themes</a>. </p>
-                </footer>
+                @include('layouts.footer')
+
                 <!-- footer end -->
             </div>
             <!-- resume section start -->

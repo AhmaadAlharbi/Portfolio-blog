@@ -22,172 +22,158 @@
                         <!-- fillter button group -->
                         <!-- fillter group buttons -->
                         <ul class="button-group isotop-menu-wrapper mt-[30px] flex w-full justify-start md:justify-end flex-wrap font-medium">
-                            <li class="fillter-btn mr-4 md:mx-4 is-checked" data-filter="*">All</li>
-                            <li class="fillter-btn mr-4 md:mx-4" data-filter=".dev">Video</li>
-                            <li class="fillter-btn mr-4 md:mx-4" data-filter=".plugin"> Web Design</li>
-                            <li class="fillter-btn mr-4 md:mx-4" data-filter=".branding"> Logo</li>
-                            <li class="fillter-btn mr-4 md:mx-4" data-filter=".custom">Graphic Design</li>
+                            <!-- <li class="fillter-btn mr-4 md:mx-4 is-checked" data-filter="*">All</li>
+                            <li class="fillter-btn mr-4 md:mx-4" data-filter=".dev">HTML - CSS</li>
+                            <li class="fillter-btn mr-4 md:mx-4" data-filter=".plugin"> JavaScript</li>
+                            <li class="fillter-btn mr-4 md:mx-4" data-filter=".branding"> PHP - LARAVEL</li> -->
+                            <!-- <li class="fillter-btn mr-4 md:mx-4" data-filter=".custom">Graphic Design</li> -->
                         </ul>
                     </div>
                     <!-- End py-12 -->
 
-                    <div id="isotop-gallery-wrapper" class="mymix portfolio_list-two  two-col ">
+                    <div id="isotop-gallery-wrapper" class="mymix portfolio_list-one  two-col ">
                         <div class="grid-sizer"></div>
-                        <!-- portfolio items one start -->
-                        <div class="portfolio_list-two-items isotop-item plugin custom ">
-                            <div class="rounded-lg bg-[#fff0f0] p-6 dark:bg-transparent dark:border-[2px] border-[#212425]">
+
+
+                        <!-- portfolio  payment card project start -->
+                        <div class="portfolio_list-one-items isotop-item dev branding ">
+                            <div class="rounded-lg bg-[#fff3fc] dark:bg-transparent p-6 dark:border-[2px] border-[#212425]">
                                 <div class="overflow-hidden rounded-lg">
                                     <a href="#portfiloOne" rel="modal:open">
-                                        <img class="w-full cursor-pointer transition duration-200 ease-in-out transform hover:scale-110 rounded-lg h-auto" src="./images/work_images/small/1.jpg" alt="portfolio image" />
+                                        <img class="w-full cursor-pointer transition duration-200 ease-in-out transform hover:scale-110 rounded-lg h-auto" src="./images/work_images/small/payment-card-small.png" alt="portfolio image" />
                                     </a>
                                 </div>
-                                <span class="pt-5 text-[14px] font-normal text-gray-lite block dark:text-[#A6A6A6]">UI/UX</span>
+                                <span class="pt-5 text-[14px] font-normal text-gray-lite block dark:text-[#A6A6A6]">Vue js</span>
                                 <h2 class="font-medium cursor-pointer text-xl duration-300 transition hover:text-[#FA5252] dark:hover:text-[#FA5252] dark:text-white mt-2">
-                                    <a href="#portfiloOne" rel="modal:open"> Chul urina </a>
+                                    <a href="#portfiloOne" rel="modal:open">Payment Gate</a>
                                 </h2>
                             </div>
                         </div>
-
-                        <!-- modal start for item one  -->
-                        <div id="portfiloOne" class="modal-container modal">
-                            <div class="overflow-y-scroll scroll-hide-1700  max-h-[60vh] lg:max-h-[80vh] dark:scrollbarDark scrollbarLight">
-                                <h2 class="text-[#ef4060] dark:hover:text-[#FA5252] text-4xl text-center font-bold">
-                                    UI/UX Project
-                                </h2>
-                                <div class="grid grid-cols-1 lg:grid-cols-2 my-6 pr-3">
-                                    <div class="space-y-2">
-                                        <p class="dark:text-white flex items-center text-[15px] sm:text-lg">
-                                            <i class="fa-regular fa-file-lines sm:text-lg hidden sm:block mr-4 md:text-xl"></i>
-                                            Project :&nbsp;
-                                            <span class="font-medium"> Website</span>
-                                        </p>
-                                        <p class="dark:text-white flex items-center text-[15px] sm:text-lg">
-                                            <i class="fa-solid fa-code text-lg mr-2 hidden sm:block"></i>
-                                            Langages :&nbsp;
-                                            <span class="font-medium">Photoshop, Figma</span>
-                                        </p>
-                                    </div>
-
-                                    <div class="space-y-2">
-                                        <p class="dark:text-white flex items-center mt-2 lg:mt-0 text-[15px] sm:text-lg">
-                                            <i class="fa-regular fa-user text-lg mr-2 hidden sm:block"></i>
-                                            Client :&nbsp; <span class="font-medium">Envato</span>
-                                        </p>
-                                        <p class="dark:text-white flex items-center text-[15px] sm:text-lg">
-                                            <i class="fa-solid fa-arrow-up-right-from-square text-lg mr-2 hidden sm:block"></i>
-                                            Preview :&nbsp;
-                                            <span class="font-medium transition-all duration-300 ease-in-out hover:text-[#ef4060]">
-                                                <a href="https://www.envato.com" target="_blank" rel="noopener noreferrer">www.envato.com</a>
-                                            </span>
-                                        </p>
-                                    </div>
-                                </div>
-
-                                <p class="dark:text-white text-2line font-normal text-[15px] sm:text-sm">
-                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                                    Mollitia placeat magnam possimus iusto blanditiis pariatur
-                                    labore explicabo quo repellat hic dolorum numquam
-                                    asperiores, voluptatum fugiat reiciendis aspernatur, non,
-                                    odio aperiam voluptas ex tempora vitae. Dolor, consequatur
-                                    quidem! Quas magni distinctio dolorum dolore natus, vel
-                                    numquam accusamus. Nostrum eligendi recusandae qui tempore
-                                    deserunt!
-                                </p>
-                                <div class="pr-3">
-                                    <img class="w-full md:h-[450px] h-auto object-cover rounded-xl mt-6" src="./images/work_images/1.jpg" alt="portfolio image" />
-                                </div>
-                            </div>
-                            <a href="#close-modal" rel="modal:close" class="close bg-close-light dark:bg-close-dark">Close</a>
-                        </div>
-
-                        <!-- portfolio items two start -->
+                        <!-- portfolio item one end -->
+                        <!-- portfolio item fylo strat -->
                         <div class="portfolio_list-two-items isotop-item dev branding ">
                             <div class="rounded-lg bg-[#fff3fc] dark:bg-transparent p-6 dark:border-[2px] border-[#212425]">
                                 <div class="overflow-hidden rounded-lg">
                                     <a href="#portfiloTwo" rel="modal:open">
-                                        <img class="w-full cursor-pointer transition duration-200 ease-in-out transform hover:scale-110 rounded-lg h-auto" src="./images/work_images/small/2.jpg" alt="portfolio image" />
+                                        <img class="w-full cursor-pointer transition duration-200 ease-in-out transform hover:scale-110 rounded-lg h-auto" src="./images/work_images/small/fylo-small.png" alt="portfolio image" />
                                     </a>
                                 </div>
-                                <span class="pt-5 text-[14px] font-normal text-gray-lite block dark:text-[#A6A6A6]">Logo</span>
+                                <span class="pt-5 text-[14px] font-normal text-gray-lite block dark:text-[#A6A6A6]">HTML - CSS</span>
                                 <h2 class="font-medium cursor-pointer text-xl duration-300 transition hover:text-[#FA5252] dark:hover:text-[#FA5252] dark:text-white mt-2">
-                                    <a href="#portfiloTwo" rel="modal:open">Chul urina</a>
+                                    <a href="#portfiloTwo" rel="modal:open">Fylo Website</a>
                                 </h2>
                             </div>
                         </div>
-
-                        <!-- modal start for item two  -->
-                        <div id="portfiloTwo" class="modal-container modal">
-                            <div class="overflow-y-scroll scroll-hide-1700  max-h-[60vh] lg:max-h-[80vh] dark:scrollbarDark scrollbarLight">
-                                <h2 class="text-[#ef4060] dark:hover:text-[#FA5252] text-4xl text-center font-bold">
-                                    Logo Project
-                                </h2>
-                                <div class="grid grid-cols-1 lg:grid-cols-2 my-6 pr-3">
-                                    <div class="space-y-2">
-                                        <p class="dark:text-white flex items-center text-[15px] sm:text-lg">
-                                            <i class="fa-regular fa-file-lines sm:text-lg hidden sm:block mr-4 md:text-xl"></i>
-                                            Project :&nbsp;
-                                            <span class="font-medium"> Website</span>
-                                        </p>
-                                        <p class="dark:text-white flex items-center text-[15px] sm:text-lg">
-                                            <i class="fa-solid fa-code text-lg mr-2 hidden sm:block"></i>
-                                            Langages :&nbsp;
-                                            <span class="font-medium">Photoshop, Figma</span>
-                                        </p>
-                                    </div>
-                                    <div class="space-y-2">
-                                        <p class="dark:text-white flex items-center mt-2 lg:mt-0 text-[15px] sm:text-lg">
-                                            <i class="fa-regular fa-user text-lg mr-2 hidden sm:block"></i>
-                                            Client :&nbsp; <span class="font-medium">Envato</span>
-                                        </p>
-                                        <p class="dark:text-white flex items-center text-[15px] sm:text-lg">
-                                            <i class="fa-solid fa-arrow-up-right-from-square text-lg mr-2 hidden sm:block"></i>
-                                            Preview :&nbsp;
-                                            <span class="font-medium transition-all duration-300 ease-in-out hover:text-[#ef4060]">
-                                                <a href="https://www.envato.com" target="_blank" rel="noopener noreferrer">www.envato.com</a>
-                                            </span>
-                                        </p>
-                                    </div>
-                                </div>
-
-                                <p class="dark:text-white text-2line font-normal text-[15px] sm:text-sm">
-                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                                    Mollitia placeat magnam possimus iusto blanditiis pariatur
-                                    labore explicabo quo repellat hic dolorum numquam
-                                    asperiores, voluptatum fugiat reiciendis aspernatur, non,
-                                    odio aperiam voluptas ex tempora vitae. Dolor, consequatur
-                                    quidem! Quas magni distinctio dolorum dolore natus, vel
-                                    numquam accusamus. Nostrum eligendi recusandae qui tempore
-                                    deserunt!
-                                </p>
-                                <div class="pr-3">
-                                    <img class="w-full md:h-[450px] h-auto object-cover rounded-xl mt-6" src="./images/work_images/2.jpg" alt="portfolio image" />
-                                </div>
-                            </div>
-                            <a href="#close-modal" rel="modal:close" class="close bg-close-light dark:bg-close-dark">Close</a>
-                        </div>
-
-                        <!-- portfolio items three start -->
-                        <div class="portfolio_list-two-items isotop-item plugin ">
+                        <!-- portfolio item fylo end -->
+                        <!-- portfolio item Intro section with dropdown navigation strat -->
+                        <div class="portfolio_list-three-items isotop-item dev branding ">
                             <div class="rounded-lg bg-[#fff3fc] dark:bg-transparent p-6 dark:border-[2px] border-[#212425]">
                                 <div class="overflow-hidden rounded-lg">
                                     <a href="#portfiloThree" rel="modal:open">
-                                        <img class="w-full cursor-pointer transition duration-200 ease-in-out transform hover:scale-110 rounded-lg h-auto" src="./images/work_images/small/3.jpg" alt="portfolio image" />
+                                        <img class="w-full cursor-pointer transition duration-200 ease-in-out transform hover:scale-110 rounded-lg h-auto" src="./images/work_images/small/vjmpky5p6zynyizhzyvo.webp" alt="portfolio image" />
                                     </a>
                                 </div>
-                                <span class="pt-5 text-[14px] font-normal text-gray-lite block dark:text-[#A6A6A6]">UI/UX</span>
+                                <span class="pt-5 text-[14px] font-normal text-gray-lite block dark:text-[#A6A6A6]">HTML - CSS - Javascript</span>
                                 <h2 class="font-medium cursor-pointer text-xl duration-300 transition hover:text-[#FA5252] dark:hover:text-[#FA5252] dark:text-white mt-2">
-                                    <a href="#portfiloThree" rel="modal:open">
-                                        T-Shirt Design
-                                    </a>
+                                    <a href="#portfiloTwo" rel="modal:open">Intro section with dropdown nav </a>
                                 </h2>
                             </div>
                         </div>
+                        <!-- portfolio item Intro section with dropdown navigation end -->
 
-                        <!-- modal start for item three start -->
+                        <!-- modal start for payment project  -->
+                        <div id="portfiloOne" class="modal-container modal">
+                            <div class="overflow-y-scroll scroll-hide-1700  max-h-[60vh] lg:max-h-[80vh] dark:scrollbarDark scrollbarLight">
+                                <h2 class="text-[#ef4060] dark:hover:text-[#FA5252] text-4xl text-center font-bold">
+                                    Frontend Mentor challenge - Payment card
+                                </h2>
+                                <div class="grid grid-cols-1 lg:grid-cols-2 my-6 pr-3">
+                                    <div class="space-y-2">
+                                        <p class="dark:text-white flex items-center text-[15px] sm:text-lg">
+                                            <i class="fa-regular fa-file-lines sm:text-lg hidden sm:block mr-4 md:text-xl"></i>
+                                            Project :&nbsp;
+                                            <span class="font-medium"> Website</span>
+                                        </p>
+                                        <p class="dark:text-white flex items-center text-[15px] sm:text-lg">
+                                            <i class="fa-solid fa-code text-lg mr-2 hidden sm:block"></i>
+                                            Langages :&nbsp;
+                                            <span class="font-medium">Tailwind and Vue js</span>
+                                        </p>
+                                    </div>
+                                    <div class="space-y-2">
+                                        <p class="dark:text-white flex items-center mt-2 lg:mt-0 text-[15px] sm:text-lg">
+                                            <i class="fa-regular fa-user text-lg mr-2 hidden sm:block"></i>
+                                            Client :&nbsp; <span class="font-medium">Frontend Mentor</span>
+                                        </p>
+                                        <p class="dark:text-white flex items-center text-[15px] sm:text-lg">
+                                            <i class="fa-solid fa-arrow-up-right-from-square text-lg mr-2 hidden sm:block"></i>
+                                            Preview :&nbsp;
+                                            <span class="font-medium transition-all duration-300 ease-in-out hover:text-[#ef4060]">
+                                                <a class=" underline " href="https://interactive-card-details-form-vue-and-tailwind.vercel.app/" target="_blank" rel="noopener noreferrer">Click here</a>
+                                            </span>
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <p class="dark:text-white text-2line font-normal text-[15px] sm:text-sm">
+                                    I have successfully completed a challenge to build an interactive card details form using Vue.js 3 and Tailwind CSS. The solution I have implemented allows users to fill in the card details and see them update in real-time, providing a seamless user experience. Error messages are displayed when the form is submitted if any input field is empty or the card number, expiry date, or CVC fields are in the wrong format, ensuring data validation. The layout has been optimized for different screen sizes, providing an optimal viewing experience on any device. Additionally, I have implemented hover, active, and focus states for interactive elements on the page, adding visual cues for user interactions. Overall, I have demonstrated a solid understanding of Vue.js and Tailwind CSS, and have implemented a well-designed solution that meets all the requirements of the challenge
+                                </p>
+                                <div class="pr-3">
+                                    <img class="w-full md:h-[450px] h-auto object-cover rounded-xl mt-6" src="./images/work_images/o5wnlelbwhhjcmbjnq62.webp" alt="portfolio image" />
+                                </div>
+                            </div>
+                            <a href="#close-modal" rel="modal:close" class="close bg-close-light dark:bg-close-dark">Close</a>
+                        </div>
+                        <!-- modal end for payment project -->
+                        <!-- modal start for fylo  -->
+                        <div id="portfiloTwo" class="modal-container modal">
+                            <div class="overflow-y-scroll scroll-hide-1700  max-h-[60vh] lg:max-h-[80vh] dark:scrollbarDark scrollbarLight">
+                                <h2 class="text-[#ef4060] dark:hover:text-[#FA5252] text-4xl text-center font-bold">
+                                    Frontend Mentor challenge - Fylo Landing page
+                                </h2>
+                                <div class="grid grid-cols-1 lg:grid-cols-2 my-6 pr-3">
+                                    <div class="space-y-2">
+                                        <p class="dark:text-white flex items-center text-[15px] sm:text-lg">
+                                            <i class="fa-regular fa-file-lines sm:text-lg hidden sm:block mr-4 md:text-xl"></i>
+                                            Project :&nbsp;
+                                            <span class="font-medium"> Website</span>
+                                        </p>
+                                        <p class="dark:text-white flex items-center text-[15px] sm:text-lg">
+                                            <i class="fa-solid fa-code text-lg mr-2 hidden sm:block"></i>
+                                            Langages :&nbsp;
+                                            <span class="font-medium"> Tailwindcss</span>
+                                        </p>
+                                    </div>
+                                    <div class="space-y-2">
+                                        <p class="dark:text-white flex items-center mt-2 lg:mt-0 text-[15px] sm:text-lg">
+                                            <i class="fa-regular fa-user text-lg mr-2 hidden sm:block"></i>
+                                            Client :&nbsp; <span class="font-medium">Frontend Mentor</span>
+                                        </p>
+                                        <p class="dark:text-white flex items-center text-[15px] sm:text-lg">
+                                            <i class="fa-solid fa-arrow-up-right-from-square text-lg mr-2 hidden sm:block"></i>
+                                            Preview :&nbsp;
+                                            <span class="font-medium transition-all duration-300 ease-in-out hover:text-[#ef4060]">
+                                                <a class=" underline " href="https://ahmaadalharbi.github.io/Fylo-dark-theme-landing-page/" target="_blank" rel="noopener noreferrer">Click here</a>
+                                            </span>
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <p class="dark:text-white text-2line font-normal text-[15px] sm:text-sm">
+                                    I have successfully completed a challenge to build a landing page for a fictional product called Fylo using Tailwind CSS. The goal of the challenge was to replicate the provided design as closely as possible. The solution I have implemented is fully responsive and adapts to different screen sizes, providing an optimal viewing experience on any device. I have also added hover states for all interactive elements on the page, adding visual cues for user interactions. Overall, I have demonstrated my proficiency in using Tailwind CSS to create a visually appealing and functional landing page that meets the requirements of the challenge.
+                                </p>
+                                <div class="pr-3">
+                                    <img class="w-full md:h-[450px] h-auto object-cover rounded-xl mt-6" src="./images/work_images/fylo.webp" alt="portfolio image" />
+                                </div>
+                            </div>
+                            <a href="#close-modal" rel="modal:close" class="close bg-close-light dark:bg-close-dark">Close</a>
+                        </div>
+                        <!-- modal end for fylo -->
+                        <!-- modal start for intro with dropdown menu  -->
                         <div id="portfiloThree" class="modal-container modal">
                             <div class="overflow-y-scroll scroll-hide-1700  max-h-[60vh] lg:max-h-[80vh] dark:scrollbarDark scrollbarLight">
                                 <h2 class="text-[#ef4060] dark:hover:text-[#FA5252] text-4xl text-center font-bold">
-                                    T-Shirt Design Project
+                                    Frontend Mentor challenge - Fylo Landing page
                                 </h2>
                                 <div class="grid grid-cols-1 lg:grid-cols-2 my-6 pr-3">
                                     <div class="space-y-2">
@@ -199,454 +185,39 @@
                                         <p class="dark:text-white flex items-center text-[15px] sm:text-lg">
                                             <i class="fa-solid fa-code text-lg mr-2 hidden sm:block"></i>
                                             Langages :&nbsp;
-                                            <span class="font-medium">Photoshop, Figma</span>
+                                            <span class="font-medium"> HTML - Css - Javascript</span>
                                         </p>
                                     </div>
                                     <div class="space-y-2">
                                         <p class="dark:text-white flex items-center mt-2 lg:mt-0 text-[15px] sm:text-lg">
                                             <i class="fa-regular fa-user text-lg mr-2 hidden sm:block"></i>
-                                            Client :&nbsp; <span class="font-medium">Envato</span>
+                                            Client :&nbsp; <span class="font-medium">Frontend Mentor</span>
                                         </p>
                                         <p class="dark:text-white flex items-center text-[15px] sm:text-lg">
                                             <i class="fa-solid fa-arrow-up-right-from-square text-lg mr-2 hidden sm:block"></i>
                                             Preview :&nbsp;
                                             <span class="font-medium transition-all duration-300 ease-in-out hover:text-[#ef4060]">
-                                                <a href="https://www.envato.com" target="_blank" rel="noopener noreferrer">www.envato.com</a>
+                                                <a class=" underline " href="https://ahmaadalharbi.github.io/Intro-section-with-dropdown-nav-tailwincss/" target="_blank" rel="noopener noreferrer">Click here</a>
                                             </span>
                                         </p>
                                     </div>
                                 </div>
 
                                 <p class="dark:text-white text-2line font-normal text-[15px] sm:text-sm">
-                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                                    Mollitia placeat magnam possimus iusto blanditiis pariatur
-                                    labore explicabo quo repellat hic dolorum numquam
-                                    asperiores, voluptatum fugiat reiciendis aspernatur, non,
-                                    odio aperiam voluptas ex tempora vitae. Dolor, consequatur
-                                    quidem! Quas magni distinctio dolorum dolore natus, vel
-                                    numquam accusamus. Nostrum eligendi recusandae qui tempore
-                                    deserunt!
-                                </p>
+                                    I have successfully completed a frontend design challenge, building out an intro section with a dropdown navigation using HTML, CSS, and JavaScript. The challenge required me to create a responsive design that looked as close as possible to the provided design and allowed users to easily navigate the site on both desktop and mobile devices, while also implementing hover states for interactive elements. This was an excellent opportunity for me to practice my front-end development skills and improve my understanding of responsive design </p>
                                 <div class="pr-3">
-                                    <img class="w-full md:h-[450px] h-auto object-cover rounded-xl mt-6" src="./images/work_images/3.jpg" alt="portfolio image" />
+                                    <img class="w-full md:h-[450px] h-auto object-cover rounded-xl mt-6" src="./images/work_images/zp74vhrxan0bpg43z2uu.webp" alt="portfolio image" />
                                 </div>
                             </div>
                             <a href="#close-modal" rel="modal:close" class="close bg-close-light dark:bg-close-dark">Close</a>
                         </div>
-
-                        <!-- portfolio items four start -->
-                        <div class="portfolio_list-two-items isotop-item dev custom ">
-                            <div class="rounded-lg p-6 bg-[#e9faff] dark:bg-transparent dark:border-[2px] border-[#212425]">
-                                <div class="overflow-hidden rounded-lg">
-                                    <a href="#portfiloFour" rel="modal:open">
-                                        <img class="w-full cursor-pointer transition duration-200 ease-in-out transform hover:scale-110 rounded-lg h-auto" src="./images/work_images/small/4.jpg" alt="portfolio image" />
-                                    </a>
-                                </div>
-                                <span class="pt-5 text-[14px] font-normal text-gray-lite block dark:text-[#A6A6A6]">UI/UX</span>
-                                <h2 class="font-medium cursor-pointer text-xl duration-300 transition hover:text-[#FA5252] dark:hover:text-[#FA5252] dark:text-white mt-2">
-                                    <a href="#portfiloFour" rel="modal:open">Packaging Box
-                                    </a>
-                                </h2>
-                            </div>
-                        </div>
-
-                        <!-- modal start for item one start -->
-                        <div id="portfiloFour" class="modal-container modal">
-                            <div class="overflow-y-scroll scroll-hide-1700  max-h-[60vh] lg:max-h-[80vh] dark:scrollbarDark scrollbarLight">
-                                <h2 class="text-[#ef4060] dark:hover:text-[#FA5252] text-4xl text-center font-bold">
-                                    Packaging Box Project
-                                </h2>
-                                <div class="grid grid-cols-1 lg:grid-cols-2 my-6 pr-3">
-                                    <div class="space-y-2">
-                                        <p class="dark:text-white flex items-center text-[15px] sm:text-lg">
-                                            <i class="fa-regular fa-file-lines sm:text-lg hidden sm:block mr-4 md:text-xl"></i>
-                                            Project :&nbsp;
-                                            <span class="font-medium"> Website</span>
-                                        </p>
-                                        <p class="dark:text-white flex items-center text-[15px] sm:text-lg">
-                                            <i class="fa-solid fa-code text-lg mr-2 hidden sm:block"></i>
-                                            Langages :&nbsp;
-                                            <span class="font-medium">Photoshop, Figma</span>
-                                        </p>
-                                    </div>
-
-                                    <div class="space-y-2">
-                                        <p class="dark:text-white flex items-center mt-2 lg:mt-0 text-[15px] sm:text-lg">
-                                            <i class="fa-regular fa-user text-lg mr-2 hidden sm:block"></i>
-                                            Client :&nbsp; <span class="font-medium">Envato</span>
-                                        </p>
-                                        <p class="dark:text-white flex items-center text-[15px] sm:text-lg">
-                                            <i class="fa-solid fa-arrow-up-right-from-square text-lg mr-2 hidden sm:block"></i>
-                                            Preview :&nbsp;
-                                            <span class="font-medium transition-all duration-300 ease-in-out hover:text-[#ef4060]">
-                                                <a href="https://www.envato.com" target="_blank" rel="noopener noreferrer">www.envato.com</a>
-                                            </span>
-                                        </p>
-                                    </div>
-                                </div>
-
-                                <p class="dark:text-white text-2line font-normal text-[15px] sm:text-sm">
-                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                                    Mollitia placeat magnam possimus iusto blanditiis pariatur
-                                    labore explicabo quo repellat hic dolorum numquam
-                                    asperiores, voluptatum fugiat reiciendis aspernatur, non,
-                                    odio aperiam voluptas ex tempora vitae. Dolor, consequatur
-                                    quidem! Quas magni distinctio dolorum dolore natus, vel
-                                    numquam accusamus. Nostrum eligendi recusandae qui tempore
-                                    deserunt!
-                                </p>
-                                <div class="pr-3">
-                                    <img class="w-full md:h-[450px] h-auto object-cover rounded-xl mt-6" src="./images/work_images/4.jpg" alt="portfolio image" />
-                                </div>
-                            </div>
-                            <a href="#close-modal" rel="modal:close" class="close bg-close-light dark:bg-close-dark">Close</a>
-                        </div>
-
-                        <!-- modal start for item five start -->
-                        <div class="portfolio_list-two-items isotop-item branding ">
-                            <div class="rounded-lg bg-[#fffae9] dark:bg-transparent p-6 dark:border-[2px] border-[#212425]">
-                                <div class="overflow-hidden rounded-lg">
-                                    <a href="#portfiloFive" rel="modal:open">
-                                        <img class="w-full cursor-pointer transition duration-200 ease-in-out transform hover:scale-110 rounded-lg h-auto" src="./images/work_images/small/5.jpg" alt="portfolio image" />
-                                    </a>
-                                </div>
-                                <span class="pt-5 text-[14px] font-normal text-gray-lite block dark:text-[#A6A6A6]">Web
-                                    Design</span>
-                                <h2 class="font-medium cursor-pointer text-xl duration-300 transition hover:text-[#FA5252] dark:hover:text-[#FA5252] dark:text-white mt-2">
-                                    <a href="#portfiloFive" rel="modal:open"> Aura Dione</a>
-                                </h2>
-                            </div>
-                        </div>
-
-                        <!-- modal start for item five start -->
-                        <div id="portfiloFive" class="modal-container modal">
-                            <div class="overflow-y-scroll scroll-hide-1700  max-h-[60vh] lg:max-h-[80vh] dark:scrollbarDark scrollbarLight">
-                                <h2 class="text-[#ef4060] dark:hover:text-[#FA5252] text-4xl text-center font-bold">
-                                    Aura Dione Project
-                                </h2>
-                                <div class="grid grid-cols-1 lg:grid-cols-2 my-6 pr-3">
-                                    <div class="space-y-2">
-                                        <p class="dark:text-white flex items-center text-[15px] sm:text-lg">
-                                            <i class="fa-regular fa-file-lines sm:text-lg hidden sm:block mr-4 md:text-xl"></i>
-                                            Project :&nbsp;
-                                            <span class="font-medium"> Website</span>
-                                        </p>
-                                        <p class="dark:text-white flex items-center text-[15px] sm:text-lg">
-                                            <i class="fa-solid fa-code text-lg mr-2 hidden sm:block"></i>
-                                            Langages :&nbsp;
-                                            <span class="font-medium">Photoshop, Figma</span>
-                                        </p>
-                                    </div>
-                                    <div class="space-y-2">
-                                        <p class="dark:text-white flex items-center mt-2 lg:mt-0 text-[15px] sm:text-lg">
-                                            <i class="fa-regular fa-user text-lg mr-2 hidden sm:block"></i>
-                                            Client :&nbsp; <span class="font-medium">Envato</span>
-                                        </p>
-                                        <p class="dark:text-white flex items-center text-[15px] sm:text-lg">
-                                            <i class="fa-solid fa-arrow-up-right-from-square text-lg mr-2 hidden sm:block"></i>
-                                            Preview :&nbsp;
-                                            <span class="font-medium transition-all duration-300 ease-in-out hover:text-[#ef4060]">
-                                                <a href="https://www.envato.com" target="_blank" rel="noopener noreferrer">www.envato.com</a>
-                                            </span>
-                                        </p>
-                                    </div>
-                                </div>
-
-                                <p class="dark:text-white text-2line font-normal text-[15px] sm:text-sm">
-                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                                    Mollitia placeat magnam possimus iusto blanditiis pariatur
-                                    labore explicabo quo repellat hic dolorum numquam
-                                    asperiores, voluptatum fugiat reiciendis aspernatur, non,
-                                    odio aperiam voluptas ex tempora vitae. Dolor, consequatur
-                                    quidem! Quas magni distinctio dolorum dolore natus, vel
-                                    numquam accusamus. Nostrum eligendi recusandae qui tempore
-                                    deserunt!
-                                </p>
-                                <div class="pr-3">
-                                    <img class="w-full md:h-[450px] h-auto object-cover rounded-xl mt-6" src="./images/work_images/5.jpg" alt="portfolio image" />
-                                </div>
-                            </div>
-                            <a href="#close-modal" rel="modal:close" class="close bg-close-light dark:bg-close-dark">Close</a>
-                        </div>
-
-                        <!-- portfolio items Six start -->
-                        <div class="portfolio_list-two-items isotop-item branding ">
-                            <div class="rounded-lg bg-[#f4f4ff] dark:bg-transparent p-6 dark:border-[2px] border-[#212425]">
-                                <div class="overflow-hidden rounded-lg">
-                                    <a href="#portfiloSix" rel="modal:open">
-                                        <img class="w-full cursor-pointer transition duration-200 ease-in-out transform hover:scale-110 rounded-lg h-auto" src="./images/work_images/small/6.jpg" alt="portfolio image" />
-                                    </a>
-                                </div>
-                                <span class="pt-5 text-[14px] font-normal text-gray-lite block dark:text-[#A6A6A6]">Video</span>
-                                <h2 class="font-medium cursor-pointer text-xl duration-300 transition hover:text-[#FA5252] dark:hover:text-[#FA5252] dark:text-white mt-2">
-                                    <a href="#portfiloSix" rel="modal:open">
-                                        Modern Bag Design
-                                    </a>
-                                </h2>
-                            </div>
-                        </div>
-
-                        <!-- modal start for item six start -->
-                        <div id="portfiloSix" class="modal-container modal">
-                            <div class="overflow-y-scroll scroll-hide-1700  max-h-[60vh] lg:max-h-[80vh] dark:scrollbarDark scrollbarLight">
-                                <h2 class="text-[#ef4060] dark:hover:text-[#FA5252] text-4xl text-center font-bold">
-                                    Modern Bag Design Project
-                                </h2>
-                                <div class="grid grid-cols-1 lg:grid-cols-2 my-6 pr-3">
-                                    <div class="space-y-2">
-                                        <p class="dark:text-white flex items-center text-[15px] sm:text-lg">
-                                            <i class="fa-regular fa-file-lines sm:text-lg hidden sm:block mr-4 md:text-xl"></i>
-                                            Project :&nbsp;
-                                            <span class="font-medium"> Website</span>
-                                        </p>
-
-                                        <p class="dark:text-white flex items-center text-[15px] sm:text-lg">
-                                            <i class="fa-solid fa-code text-lg mr-2 hidden sm:block"></i>
-                                            Langages :&nbsp;
-                                            <span class="font-medium">Photoshop, Figma</span>
-                                        </p>
-
-                                    </div>
-
-                                    <div class="space-y-2">
-                                        <p class="dark:text-white flex items-center mt-2 lg:mt-0 text-[15px] sm:text-lg">
-                                            <i class="fa-regular fa-user text-lg mr-2 hidden sm:block"></i>
-                                            Client :&nbsp; <span class="font-medium">Envato</span>
-                                        </p>
-                                        <p class="dark:text-white flex items-center text-[15px] sm:text-lg">
-                                            <i class="fa-solid fa-arrow-up-right-from-square text-lg mr-2 hidden sm:block"></i>
-                                            Preview :&nbsp;
-                                            <span class="font-medium transition-all duration-300 ease-in-out hover:text-[#ef4060]">
-                                                <a href="https://www.envato.com" target="_blank" rel="noopener noreferrer">www.envato.com</a>
-                                            </span>
-                                        </p>
-                                    </div>
-                                </div>
-
-                                <p class="dark:text-white text-2line font-normal text-[15px] sm:text-sm">
-                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                                    Mollitia placeat magnam possimus iusto blanditiis pariatur
-                                    labore explicabo quo repellat hic dolorum numquam
-                                    asperiores, voluptatum fugiat reiciendis aspernatur, non,
-                                    odio aperiam voluptas ex tempora vitae. Dolor, consequatur
-                                    quidem! Quas magni distinctio dolorum dolore natus, vel
-                                    numquam accusamus. Nostrum eligendi recusandae qui tempore
-                                    deserunt!
-                                </p>
-                                <div class="pr-3">
-                                    <img class="w-full md:h-[450px] h-auto object-cover rounded-xl mt-6" src="./images/work_images/6.jpg" alt="portfolio image" />
-                                </div>
-                            </div>
-                            <a href="#close-modal" rel="modal:close" class="close bg-close-light dark:bg-close-dark">Close</a>
-                        </div>
-
-                        <!-- modal start for item Seven start -->
-                        <div class="portfolio_list-two-items isotop-item plugin ">
-                            <div class="rounded-lg bg-[#f4f4ff] dark:bg-transparent p-6 dark:border-[2px] border-[#212425]">
-                                <div class="overflow-hidden rounded-lg">
-                                    <a href="#portfiloSeven" rel="modal:open">
-                                        <img class="w-full cursor-pointer transition duration-200 ease-in-out transform hover:scale-110 rounded-lg h-auto" src="./images/work_images/small/7.jpg" alt="portfolio image" />
-                                    </a>
-                                </div>
-                                <span class="pt-5 text-[14px] font-normal text-gray-lite block dark:text-[#A6A6A6]">Video</span>
-                                <h2 class="font-medium cursor-pointer text-xl duration-300 transition hover:text-[#FA5252] dark:hover:text-[#FA5252] dark:text-white mt-2">
-                                    <a href="#portfiloSeven" rel="modal:open"> Chul urina </a>
-                                </h2>
-                            </div>
-                        </div>
-
-                        <!-- modal start for item Seven start -->
-                        <div id="portfiloSeven" class="modal-container modal">
-                            <div class="overflow-y-scroll scroll-hide-1700  max-h-[60vh] lg:max-h-[80vh] dark:scrollbarDark scrollbarLight">
-                                <h2 class="text-[#ef4060] dark:hover:text-[#FA5252] text-4xl text-center font-bold">
-                                    UI/UX Project
-                                </h2>
-                                <div class="grid grid-cols-1 lg:grid-cols-2 my-6 pr-3">
-                                    <div class="space-y-2">
-                                        <p class="dark:text-white flex items-center text-[15px] sm:text-lg">
-                                            <i class="fa-regular fa-file-lines sm:text-lg hidden sm:block mr-4 md:text-xl"></i>
-                                            Project :&nbsp;
-                                            <span class="font-medium"> Website</span>
-                                        </p>
-                                        <p class="dark:text-white flex items-center text-[15px] sm:text-lg">
-                                            <i class="fa-solid fa-code text-lg mr-2 hidden sm:block"></i>
-                                            Langages :&nbsp;
-                                            <span class="font-medium">Photoshop, Figma</span>
-                                        </p>
-                                    </div>
-                                    <div class="space-y-2">
-                                        <p class="dark:text-white flex items-center mt-2 lg:mt-0 text-[15px] sm:text-lg">
-                                            <i class="fa-regular fa-user text-lg mr-2 hidden sm:block"></i>
-                                            Client :&nbsp; <span class="font-medium">Envato</span>
-                                        </p>
-                                        <p class="dark:text-white flex items-center text-[15px] sm:text-lg">
-                                            <i class="fa-solid fa-arrow-up-right-from-square text-lg mr-2 hidden sm:block"></i>
-                                            Preview :&nbsp;
-                                            <span class="font-medium transition-all duration-300 ease-in-out hover:text-[#ef4060]">
-                                                <a href="https://www.envato.com" target="_blank" rel="noopener noreferrer">www.envato.com</a>
-                                            </span>
-                                        </p>
-                                    </div>
-                                </div>
-
-                                <p class="dark:text-white text-2line font-normal text-[15px] sm:text-sm">
-                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                                    Mollitia placeat magnam possimus iusto blanditiis pariatur
-                                    labore explicabo quo repellat hic dolorum numquam
-                                    asperiores, voluptatum fugiat reiciendis aspernatur, non,
-                                    odio aperiam voluptas ex tempora vitae. Dolor, consequatur
-                                    quidem! Quas magni distinctio dolorum dolore natus, vel
-                                    numquam accusamus. Nostrum eligendi recusandae qui tempore
-                                    deserunt!
-                                </p>
-                                <div class="pr-3">
-                                    <img class="w-full md:h-[450px] h-auto object-cover rounded-xl mt-6" src="./images/work_images/7.jpg" alt="portfolio image" />
-                                </div>
-                            </div>
-                            <a href="#close-modal" rel="modal:close" class="close bg-close-light dark:bg-close-dark">Close</a>
-                        </div>
-
-                        <!-- portfolio items Eight start -->
-                        <div class="portfolio_list-two-items isotop-item dev branding ">
-                            <div class="rounded-lg bg-[#f4f4ff] dark:bg-transparent p-6 dark:border-[2px] border-[#212425]">
-                                <div class="overflow-hidden rounded-lg">
-                                    <a href="#portfiloEight" rel="modal:open">
-                                        <img class="w-full cursor-pointer transition duration-200 ease-in-out transform hover:scale-110 rounded-lg h-auto" src="./images/work_images/small/8.jpg" alt="portfolio image" />
-                                    </a>
-                                </div>
-                                <span class="pt-5 text-[14px] font-normal text-gray-lite block dark:text-[#A6A6A6]">Video</span>
-                                <h2 class="font-medium cursor-pointer text-xl duration-300 transition hover:text-[#FA5252] dark:hover:text-[#FA5252] dark:text-white mt-2">
-                                    <a href="#portfiloEight" rel="modal:open"> Chul urina </a>
-                                </h2>
-                            </div>
-                        </div>
-
-                        <!-- modal start for item Eight start -->
-                        <div id="portfiloEight" class="modal-container modal">
-                            <div class="overflow-y-scroll scroll-hide-1700  max-h-[60vh] lg:max-h-[80vh] dark:scrollbarDark scrollbarLight">
-                                <h2 class="text-[#ef4060] dark:hover:text-[#FA5252] text-4xl text-center font-bold">
-                                    UI/UX Project
-                                </h2>
-                                <div class="grid grid-cols-1 lg:grid-cols-2 my-6 pr-3">
-                                    <div class="space-y-2">
-                                        <p class="dark:text-white flex items-center text-[15px] sm:text-lg">
-                                            <i class="fa-regular fa-file-lines sm:text-lg hidden sm:block mr-4 md:text-xl"></i>
-                                            Project :&nbsp;
-                                            <span class="font-medium"> Website</span>
-                                        </p>
-                                        <p class="dark:text-white flex items-center text-[15px] sm:text-lg">
-                                            <i class="fa-solid fa-code text-lg mr-2 hidden sm:block"></i>
-                                            Langages :&nbsp;
-                                            <span class="font-medium">Photoshop, Figma</span>
-                                        </p>
-                                    </div>
-                                    <div class="space-y-2">
-                                        <p class="dark:text-white flex items-center mt-2 lg:mt-0 text-[15px] sm:text-lg">
-                                            <i class="fa-regular fa-user text-lg mr-2 hidden sm:block"></i>
-                                            Client :&nbsp; <span class="font-medium">Envato</span>
-                                        </p>
-                                        <p class="dark:text-white flex items-center text-[15px] sm:text-lg">
-                                            <i class="fa-solid fa-arrow-up-right-from-square text-lg mr-2 hidden sm:block"></i>
-                                            Preview :&nbsp;
-                                            <span class="font-medium transition-all duration-300 ease-in-out hover:text-[#ef4060]">
-                                                <a href="https://www.envato.com" target="_blank" rel="noopener noreferrer">www.envato.com</a>
-                                            </span>
-                                        </p>
-                                    </div>
-                                </div>
-
-                                <p class="dark:text-white text-2line font-normal text-[15px] sm:text-sm">
-                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                                    Mollitia placeat magnam possimus iusto blanditiis pariatur
-                                    labore explicabo quo repellat hic dolorum numquam
-                                    asperiores, voluptatum fugiat reiciendis aspernatur, non,
-                                    odio aperiam voluptas ex tempora vitae. Dolor, consequatur
-                                    quidem! Quas magni distinctio dolorum dolore natus, vel
-                                    numquam accusamus. Nostrum eligendi recusandae qui tempore
-                                    deserunt!
-                                </p>
-                                <div class="pr-3">
-                                    <img class="w-full md:h-[450px] h-auto object-cover rounded-xl mt-6" src="./images/work_images/8.jpg" alt="portfolio image" />
-                                </div>
-                            </div>
-                            <a href="#close-modal" rel="modal:close" class="close bg-close-light dark:bg-close-dark">Close</a>
-                        </div>
+                        <!-- modal end for intro with dropdown menu  -->
 
 
-                        <!-- portfolio items Nine start -->
-                        <div class="portfolio_list-two-items isotop-item plugin custom ">
-                            <div class="rounded-lg bg-[#fff0f8] dark:bg-transparent p-6 dark:border-[2px] border-[#212425]">
-                                <div class="overflow-hidden rounded-lg">
-                                    <a href="#portfiloNine" rel="modal:open">
-                                        <img class="w-full cursor-pointer transition duration-200 ease-in-out transform hover:scale-110 rounded-lg h-auto" src="./images/work_images/small/9.jpg" alt="portfolio image" />
-                                    </a>
-                                </div>
-                                <span class="pt-5 text-[14px] font-normal text-gray-lite block dark:text-[#A6A6A6]">Web
-                                    Design</span>
-                                <h2 class="font-medium cursor-pointer text-xl duration-300 transition hover:text-[#FA5252] dark:hover:text-[#FA5252] dark:text-white mt-2">
-                                    <a href="#portfiloNine" rel="modal:open"> Aura Dione </a>
-                                </h2>
-                            </div>
-                        </div>
-
-                        <!-- modal start for item Nine start -->
-                        <div id="portfiloNine" class="modal-container modal">
-                            <div class="overflow-y-scroll scroll-hide-1700  max-h-[60vh] lg:max-h-[80vh] dark:scrollbarDark scrollbarLight">
-                                <h2 class="text-[#ef4060] dark:hover:text-[#FA5252] text-4xl text-center font-bold">
-                                    Aura Dione Project
-                                </h2>
-                                <div class="grid grid-cols-1 lg:grid-cols-2 my-6 pr-3">
-                                    <div class="space-y-2">
-                                        <p class="dark:text-white flex items-center text-[15px] sm:text-lg">
-                                            <i class="fa-regular fa-file-lines sm:text-lg hidden sm:block mr-4 md:text-xl"></i>
-                                            Project :&nbsp;
-                                            <span class="font-medium"> Website</span>
-                                        </p>
-                                        <p class="dark:text-white flex items-center text-[15px] sm:text-lg">
-                                            <i class="fa-solid fa-code text-lg mr-2 hidden sm:block"></i>
-                                            Langages :&nbsp;
-                                            <span class="font-medium">Photoshop, Figma</span>
-                                        </p>
-                                    </div>
-
-                                    <div class="space-y-2">
-                                        <p class="dark:text-white flex items-center mt-2 lg:mt-0 text-[15px] sm:text-lg">
-                                            <i class="fa-regular fa-user text-lg mr-2 hidden sm:block"></i>
-                                            Client :&nbsp; <span class="font-medium">Envato</span>
-                                        </p>
-                                        <p class="dark:text-white flex items-center text-[15px] sm:text-lg">
-                                            <i class="fa-solid fa-arrow-up-right-from-square text-lg mr-2 hidden sm:block"></i>
-                                            Preview :&nbsp;
-                                            <span class="font-medium transition-all duration-300 ease-in-out hover:text-[#ef4060]">
-                                                <a href="https://www.envato.com" target="_blank" rel="noopener noreferrer">www.envato.com</a>
-                                            </span>
-                                        </p>
-                                    </div>
-                                </div>
-
-                                <p class="dark:text-white text-2line font-normal text-[15px] sm:text-sm">
-                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                                    Mollitia placeat magnam possimus iusto blanditiis pariatur
-                                    labore explicabo quo repellat hic dolorum numquam
-                                    asperiores, voluptatum fugiat reiciendis aspernatur, non,
-                                    odio aperiam voluptas ex tempora vitae. Dolor, consequatur
-                                    quidem! Quas magni distinctio dolorum dolore natus, vel
-                                    numquam accusamus. Nostrum eligendi recusandae qui tempore
-                                    deserunt!
-                                </p>
-                                <div class="pr-3">
-                                    <img class="w-full md:h-[450px] h-auto object-cover rounded-xl mt-6" src="./images/work_images/9.jpg" alt="portfolio image" />
-                                </div>
-                            </div>
-                            <a href="#close-modal" rel="modal:close" class="close bg-close-light dark:bg-close-dark">Close</a>
-                        </div>
                     </div>
                 </div>
+                @include('layouts.footer')
 
-                <footer class="overflow-hidden rounded-b-2xl bg-[#f8fbfb] dark:bg-[#212425]">
-                    <p class="text-center py-6 text-gray-lite dark:text-color-910"> © 2022 All Rights Reserved by <a class="hover:text-[#FA5252] duration-300 transition" href="https://themeforest.net/user/ib-themes" target="_blank" rel="noopener noreferrer">ib-themes</a>.
-                    </p>
-                </footer>
             </section>
             <!-- portfolio section start -->
         </div>
