@@ -29,7 +29,11 @@ Route::get('/blogs', function () {
 Route::get('/contact', function () {
     return view('contact');
 });
-
+// Sudo Password: 
+// 56eWGF7YLreJiRPtE9ym
+// Database Password: 
+// 8ReyrIEoJoWA3A2pgJZb
+// dop_v1_3b531ba00c66b0e896ef31b2378a4aaa13e9ce13400c05ccdb573b285d0fbf83
 Route::get('/download-pdf', function () {
     $path = storage_path('ahmadCv-23.pdf');
     return response()->download($path);
